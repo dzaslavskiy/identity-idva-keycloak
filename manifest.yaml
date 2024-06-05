@@ -17,3 +17,6 @@ applications:
     KC_DB: postgres
     KC_HOSTNAME: idva-keycloak-((ENVIRONMENT_NAME)).app.cloud.gov
     KC_PROXY: edge
+    KC_HTTPS_CERTIFICATE_FILE: /etc/cf-instance-credentials/instance.crt
+    KC_HTTPS_CERTIFICATE_KEY_FILE: /etc/cf-instance-credentials/instance.key
+    
